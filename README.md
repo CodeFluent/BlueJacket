@@ -4,7 +4,7 @@ BlueJacket helps you organize what to wear with the help of other people. Search
 
 ### How BlueJacket works
 
-<center>What to wear</center>
+          What to wear
               / \
              /   \
             /     \
