@@ -21,5 +21,6 @@ BlueJacket helps you organize what to wear with the help of other people. Search
        other items paried with
       "hat"
     
+### Backlog and Other Details
 - users can submit their photos—tag their photo #bluejacket #blackpants #hat
 - Advanced option: maybe choose which social media site you would like to search tags from?
