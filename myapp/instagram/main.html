@@ -1,0 +1,26 @@
+<html>
+<head>
+  <script type="text/javascript" src="instafeed.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+
+
+
+<div id="instafeed" style="height:680px;">
+</div>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: '98918c96c9204a13a259f486a22d1d1f'
+
+    });
+    feed.run();
+</script>
+
+</body>
+
+</html>
