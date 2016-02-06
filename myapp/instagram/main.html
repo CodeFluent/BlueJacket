@@ -13,9 +13,14 @@
 
 <script type="text/javascript">
     var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'awesome',
-        clientId: '98918c96c9204a13a259f486a22d1d1f'
+
+        get: 'user',
+        userId: '2905869490',
+        // ask for access :)
+        accessToken: '',
+        filter: function(image) {
+           return image.tags.indexOf('hackfsu') >= 0;
+         }
 
     });
     feed.run();
