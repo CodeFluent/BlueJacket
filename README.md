@@ -1,2 +1,10 @@
 # BlueJacket
-BlueJacket helps people match clothes within a social conversation using media tags and networking.
+
+BlueJacket helps you organize what to wear with the help of other people. Search all the favorite fashions, die-for designs, and shimmering sales all in one place.
+
+### How BlueJacket works
+
+<center>What to wear</center>
+              / \
+             /   \
+            /     \
