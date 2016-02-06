@@ -15,11 +15,11 @@ BlueJacket helps you organize what to wear with the help of other people. Search
              /                     \ 
           user input "hat"        user input "hat"
            /                          \ 
-          Searches tags              Searches tags at
-          from say                   uploaded photos
-          "Pinterest to find
-          other items paried with
-          "hat"
+      Searches tags                Searches tags at
+      from say                      uploaded photos
+      "Pinterest to find
+       other items paried with
+      "hat"
     
 - users can submit their photos—tag their photo #bluejacket #blackpants #hat
 - Advanced option: maybe choose which social media site you would like to search tags from?
