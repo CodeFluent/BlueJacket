@@ -17,6 +17,7 @@ app.get('/instagram',function(req,res){
      res.sendFile('main.html');
      res.sendFile('main.css');
      res.sendFile('index.js');
+     res.sendFile('index.html')
 
 });
 
