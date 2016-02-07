@@ -1,8 +1,8 @@
-# BlueJacket
+#BlueJacket
 
  BlueJacket helps you organize what to wear with the help of other people. Search all the favorite fashions, die-for designs, and shimmering sales all in one place.
 
- ### How BlueJacket works
+###How BlueJacket works
 
                     What to wear
                      /        \
@@ -21,6 +21,6 @@
         other items paried with
        "hat"
 
- ### Backlog and Other Details
+### Backlog and Other Details
  - users can submit their photos—tag their photo #bluejacket #blackpants #hat
  - Advanced option: maybe choose which social media site you would like to search tags from?
