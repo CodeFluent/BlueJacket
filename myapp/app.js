@@ -14,12 +14,10 @@ app.use(express.static('public'));
 
 app.get('/instagram',function(req,res){
 
-
+     res.sendFile('main.html');
+     res.sendFile('main.css');
      res.sendFile('index.js');
-     res.sendFile('index.html');
-     res.sendFile('gallery.html');
-     res.sendFile('contact.html');
-
+     res.sendFile('index.html')
 
 });
 
