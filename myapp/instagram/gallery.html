@@ -4,82 +4,50 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Gallery - Mustache Enthusiast</title>
+	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
 	<script type="text/javascript" src="js/mobile.js"></script>
+	<script type="text/javascript" src="instafeed.js"></script>
 </head>
 <body>
-<div id= "header">
 
+<div id= "header">
+	<ul id="navigation">
+
+		<li>
+			<a href="contact.html">find cool fashion</a>
+		</li>
+					<li class="selected">
+			<a href="index.html">home</a>
+		</li>
+		<li>
+			<a href="gallery.html">show your fashion</a>
+		</li>
+
+	</ul>
 </div>
 	<div id="body">
 		<h1><span>Get help finding your fashion</span></h1>
-		<ul class="gallery">
-			<li>
-				<a href="gallery-single-post.html">
-					<img src="images/mustache1.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="gallery-single-post.html">
-					<img src="images/mustache2.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="gallery-single-post.html">
-					<img src="images/mustache3.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="gallery-single-post.html">
-					<img src="images/mustache4.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="gallery-single-post.html">
-					<img src="images/mustache5.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="gallery-single-post.html">
-					<img src="images/mustache6.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="gallery-single-post.html">
-					<img src="images/mustache7.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="gallery-single-post.html">
-					<img src="images/mustache8.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="gallery-single-post.html">
-					<img src="images/mustache9.jpg" alt="">
-				</a>
-			</li>
-		</ul>
-	</div>
-	<div id="footer">
-		<div>
-			<p>&copy; 2023 by Mustacchio. All rights reserved.</p>
-			<ul>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
-				</li>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
-				</li>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
-				</li>
-				<li>
-					<a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
-				</li>
-			</ul>
+
+		<div id="instafeed">
+		</div>
+
+		<script type="text/javascript">
+		    var feed = new Instafeed({
+
+		        get: 'user',
+		        userId: '2905869490',
+		        accessToken: '2905869490.98918c9.d933e17c4ab84bf5b4ac1d2de08a0a9f',
+						template: '<a href="{{link}}"><img src="{{image}}" /></a>',
+		        filter: function(image) {
+		           return image.tags.indexOf('hackfsu') >= 0;
+		         }
+
+		    });
+		    feed.run();
+		</script>
+
 		</div>
 	</div>
 </body>
