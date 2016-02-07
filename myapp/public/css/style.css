@@ -61,10 +61,15 @@ p a:hover {
 	padding: 56px 0 0;
 }
 #header ul li {
-	display: inline;
-	list-style: none;
-	margin: 0;
-	padding: 0 19px;
+	background: #0ba39c;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 15px 0 0;
+	padding: 26px 27px 22px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 #header ul li a {
 	color: #252525;
@@ -78,7 +83,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #header ul li a:hover, #header ul li.selected a {
-	color: #0ba39c;
+	color: #ffffff;
 }
 #body {
 	margin: 0;
@@ -415,4 +420,10 @@ p a:hover {
 #instafeed  a  img {
 	margin-right: 15px;
 	margin-left: 15px;
+}
+#post-middle{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+	color:white;
+
 }
